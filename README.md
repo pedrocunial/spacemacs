@@ -237,12 +237,20 @@ For efficient searches we recommend to install `pt` ([the platinum searcher][]).
    ```sh
    git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
    ```
+   
+   Or
+   
+   ```sh
+   git clone --depth 1 https://github.com/syl20bnr/spacemacs ~/.emacs.d
+   ```
+   
+   In case you have a limited internet connection or speed.
 
    `master` is the stable branch and it is _immutable_, **DO NOT** make any
    modification to it or you will break the update mechanism. If you want to
    fork Spacemacs safely use the `develop` branch where you handle the update
    manually.
-
+   
 3. (Optional) Install the [Source Code Pro][] font.
 
    If you are running in terminal you'll also need to change font settings of
